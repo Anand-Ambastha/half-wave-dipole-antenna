@@ -1,0 +1,21 @@
+HALF-WAVE DIPOLE: PYTHON (MoM) RESULTS
+============================================
+Design frequency        : 2.400 GHz  (lambda = 124.91 mm)
+Wire radius             : 1.00 mm  (a/lambda = 0.0080)
+Resonant length (X = 0) : 57.13 mm  = 0.457 lambda
+Zin at f0               : 75.5 +0.0j ohm
+S11 at f0 (50 ohm)      : -13.8 dB
+VSWR at f0              : 1.51
+Max directivity         : 2.14 dBi
+E-plane HPBW            : 78.5 deg
+Efficiency (PEC)        : 100.0 %
+Efficiency (copper)     : 99.91 %  -> gain 2.14 dBi
+-10 dB band             : 2.225-2.500 GHz (11.5 % ), min S11 at 2.350 GHz
+
+Radius study (length re-tuned to resonance at f0):
+  a = 0.25 mm -> L = 58.76 mm, -10 dB BW = 7.3 %
+  a = 0.50 mm -> L = 57.98 mm, -10 dB BW = 9.4 %
+  a = 1.00 mm -> L = 57.13 mm, -10 dB BW = 11.5 %
+
+Figures: current, s11_vswr, zin, smith, pattern_polar, pattern_3d,
+         length_sweep, radius_sweep  (PNG, in the output folder)
