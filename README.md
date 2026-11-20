@@ -3,6 +3,12 @@
 Course project for TWA, B.Tech Semester 5.
 Author: Anand Kumar
 
+## Antenna Geometry
+
+![3D Golden Half-Wave Dipole Antenna](cst/Golden%20Half-Wave%20Dipole%20Antenna.png)
+
+*Figure 1: 3D geometry of the golden half-wave dipole antenna designed for 2.4 GHz.*
+
 ## About
 
 This project designs a half-wave dipole for 2.4 GHz and checks its performance in two ways:
